@@ -1,13 +1,17 @@
 [project]
 name = "mensa"
 version = "0.1.0"
-description = "Add your description here"
+description = "A CLI tool to browse mensa meals from studentwerk dortmund and find an optimal meal plan(ILP)"
 readme = "README.md"
 authors = [
     { name = "gouthaman-b", email = "gouthaman.b@outlook.com" }
 ]
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "httpx>=0.28.1",
+    "pathvalidate>=3.3.1",
+    "platformdirs>=4.11.11",
+]
 
 [project.scripts]
 mensa = "mensa:main"
@@ -23,5 +27,5 @@ dev = [
 ]
 
 [tool.ruff]
-line-length = 79
+line-length = 100
 target-version = "py310"
