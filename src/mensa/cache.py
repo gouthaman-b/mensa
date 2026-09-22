@@ -5,12 +5,10 @@ from pathlib import Path
 from pathvalidate import sanitize_filename
 from platformdirs import user_cache_dir
 
-APP_NAME = "mensa"
+from .constants import APP_NAME, CANTEENS_TTL
+
 CACHE_DIR = Path(user_cache_dir(APP_NAME))
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
-
-CANTEENS_TTL = 24 * 3600
-MEALS_TTL = 3600
 
 
 def _path(key: str) -> Path:
