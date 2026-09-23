@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 import re
 from datetime import date, datetime, timezone
 
@@ -65,7 +63,7 @@ def _parse_items(raw: dict) -> list[MealItem]:
             items.append(
                 MealItem(
                     text_de=text_de,
-                        substances=allergens_de,
+                    substances=allergens_de,
                 )
             )
     return items
