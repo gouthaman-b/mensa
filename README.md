@@ -51,9 +51,8 @@ Dates accept `YYYY-MM-DD`, `DD.MM.YYYY`, `today`, or `tomorrow`. Repeat `--date`
 uv run mensa plan \
         --diet vegetarian \
         --file examples/demo.json \
-        --budget 15 \
-        --role staff \
-        --max-category-repeat vegan=2
+        --budget 20 \
+        --role student
 ```
 
 The planner selects one main meal for each requested date and minimizes the weighted price and climate score. Use `uv run mensa plan --help` to see options for requiring breakfast or a side, setting climate score limits, excluding meal IDs, or applying nutrition constraints. Nutrition constraints require nutrition values in the input data.
