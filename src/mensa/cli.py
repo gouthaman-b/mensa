@@ -252,6 +252,7 @@ def render_plan_table(meals: Sequence[Meal], role: PriceRole) -> Table:
     table = Table(show_header=True, header_style="bold cyan", title="Meal plan")
     table.add_column("Date")
     table.add_column("Kind")
+    table.add_column("ID")
     table.add_column("Dish", overflow="fold")
     table.add_column("Canteen", overflow="fold")
     table.add_column("Climate")
@@ -260,6 +261,7 @@ def render_plan_table(meals: Sequence[Meal], role: PriceRole) -> Table:
         table.add_row(
             _format_day(meal.date),
             meal.kind.value,
+            meal.id,
             meal.name,
             meal.canteen_name,
             _format_climate(meal.climate_rating),

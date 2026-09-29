@@ -1,0 +1,2616 @@
+{
+  "canteens": [
+    {
+      "id": 451,
+      "name": "Galerie"
+    }
+  ],
+  "meals": [
+    {
+      "id": 2897549,
+      "date": "2026-09-29",
+      "name": "Hamburger Rind Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Burger Cafeteria",
+      "diet": [
+        "beef"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Hamburger Rind",
+          "codes": [
+            "20a",
+            "20b",
+            "20c",
+            "29",
+            "30"
+          ]
+        },
+        {
+          "de": "Gouda",
+          "codes": []
+        },
+        {
+          "de": "Tomatenscheiben",
+          "codes": []
+        },
+        {
+          "de": "Röstzwiebeln",
+          "codes": []
+        },
+        {
+          "de": "Eisbergsalat",
+          "codes": [
+            "1",
+            "2",
+            "4",
+            "7",
+            "20a",
+            "26"
+          ]
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [
+        "20a",
+        "20b",
+        "20c",
+        "26",
+        "29",
+        "30"
+      ],
+      "additives": [
+        "1",
+        "2",
+        "4",
+        "7"
+      ],
+      "price": {
+        "student": 6.5,
+        "staff": 8.6,
+        "guest": 9.7
+      },
+      "climate_rating": "B",
+      "notes": ""
+    },
+    {
+      "id": 2897939,
+      "date": "2026-09-29",
+      "name": "Schweineschnitzel  Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "pork"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Schweineschnitzel",
+          "codes": [
+            "20a",
+            "22"
+          ]
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [
+        "20a",
+        "22"
+      ],
+      "additives": [],
+      "price": {
+        "student": 6.0,
+        "staff": 8.1,
+        "guest": 9.2
+      },
+      "climate_rating": "B",
+      "notes": ""
+    },
+    {
+      "id": 2898059,
+      "date": "2026-09-29",
+      "name": "Pommes frites frittiert EH",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Pommes Frites",
+          "codes": []
+        }
+      ],
+      "allergens": [],
+      "additives": [],
+      "price": {
+        "student": 1.9,
+        "staff": 2.4,
+        "guest": 2.9
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2897609,
+      "date": "2026-09-29",
+      "name": "Crispy Chicken-Hamburger Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Burger Cafeteria",
+      "diet": [
+        "poultry"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Crispy Chicken Burger",
+          "codes": [
+            "20a",
+            "20b",
+            "20c",
+            "26",
+            "28",
+            "30"
+          ]
+        },
+        {
+          "de": "Gouda",
+          "codes": []
+        },
+        {
+          "de": "Tomatenscheiben",
+          "codes": []
+        },
+        {
+          "de": "Röstzwiebeln",
+          "codes": []
+        },
+        {
+          "de": "Eisbergsalat",
+          "codes": [
+            "1",
+            "2",
+            "4",
+            "7",
+            "20a",
+            "26"
+          ]
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [
+        "20a",
+        "20b",
+        "20c",
+        "26",
+        "28",
+        "30"
+      ],
+      "additives": [
+        "1",
+        "2",
+        "4",
+        "7"
+      ],
+      "price": {
+        "student": 6.5,
+        "staff": 8.6,
+        "guest": 9.7
+      },
+      "climate_rating": "E",
+      "notes": ""
+    },
+    {
+      "id": 2898299,
+      "date": "2026-09-29",
+      "name": "Currywurst Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "organic",
+        "pork",
+        "species-appropriate"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Bratwurst",
+          "codes": []
+        },
+        {
+          "de": "Currysauce",
+          "codes": [
+            "29"
+          ]
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [
+        "29"
+      ],
+      "additives": [],
+      "price": {
+        "student": 4.3,
+        "staff": 6.4,
+        "guest": 7.5
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2897909,
+      "date": "2026-09-29",
+      "name": "Green Heroes Knusperschnitzel Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Green Heroes Knusper Schnitzel",
+          "codes": [
+            "20a"
+          ]
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [
+        "20a"
+      ],
+      "additives": [],
+      "price": {
+        "student": 4.5,
+        "staff": 6.6,
+        "guest": 7.7
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2897999,
+      "date": "2026-09-29",
+      "name": "Bratwurst Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "organic",
+        "pork",
+        "species-appropriate"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Bratwurst",
+          "codes": []
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [],
+      "additives": [],
+      "price": {
+        "student": 3.9,
+        "staff": 6.0,
+        "guest": 7.1
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2898239,
+      "date": "2026-09-29",
+      "name": "Vegane Currywurst Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "organic",
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Jackfruit Bratwurst",
+          "codes": []
+        },
+        {
+          "de": "Currysauce",
+          "codes": [
+            "29"
+          ]
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [
+        "29"
+      ],
+      "additives": [],
+      "price": {
+        "student": 4.3,
+        "staff": 6.4,
+        "guest": 7.5
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2897489,
+      "date": "2026-09-29",
+      "name": "Hamburger Vegan Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Burger Cafeteria",
+      "diet": [
+        "organic",
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Hamburger Kürbis-Chiasamen",
+          "codes": [
+            "20a",
+            "20b",
+            "20c",
+            "30"
+          ]
+        },
+        {
+          "de": "Gouda",
+          "codes": []
+        },
+        {
+          "de": "Tomatenscheiben",
+          "codes": []
+        },
+        {
+          "de": "Röstzwiebeln",
+          "codes": []
+        },
+        {
+          "de": "Eisbergsalat",
+          "codes": [
+            "1",
+            "2",
+            "4",
+            "7",
+            "20a",
+            "26"
+          ]
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [
+        "20a",
+        "20b",
+        "20c",
+        "26",
+        "30"
+      ],
+      "additives": [
+        "1",
+        "2",
+        "4",
+        "7"
+      ],
+      "price": {
+        "student": 6.5,
+        "staff": 8.6,
+        "guest": 9.7
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2898449,
+      "date": "2026-09-29",
+      "name": "Salatteller  EH To-Go Falafelbällchen Ve",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Snacks Kalt Cafeteria",
+      "diet": [],
+      "diet_category": "unknown",
+      "components": [
+        {
+          "de": "Salat Bowl Falafel",
+          "codes": [
+            "1",
+            "20a"
+          ]
+        }
+      ],
+      "allergens": [
+        "20a"
+      ],
+      "additives": [
+        "1"
+      ],
+      "price": {
+        "student": 3.9,
+        "staff": 4.2,
+        "guest": 4.5
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2898419,
+      "date": "2026-09-29",
+      "name": "Salatteller  EH To-Go Mozzarella ",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Snacks Kalt Cafeteria",
+      "diet": [],
+      "diet_category": "unknown",
+      "components": [
+        {
+          "de": "Salat Bowl Mozzarella",
+          "codes": [
+            "1",
+            "26"
+          ]
+        }
+      ],
+      "allergens": [
+        "26"
+      ],
+      "additives": [
+        "1"
+      ],
+      "price": {
+        "student": 3.9,
+        "staff": 4.2,
+        "guest": 4.5
+      },
+      "climate_rating": "B",
+      "notes": ""
+    },
+    {
+      "id": 2898389,
+      "date": "2026-09-29",
+      "name": "Salatteller  EH To-Go Hirtenkäse",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Snacks Kalt Cafeteria",
+      "diet": [],
+      "diet_category": "unknown",
+      "components": [
+        {
+          "de": "Salat Bowl Hirtenkäse",
+          "codes": [
+            "1",
+            "26"
+          ]
+        }
+      ],
+      "allergens": [
+        "26"
+      ],
+      "additives": [
+        "1"
+      ],
+      "price": {
+        "student": 3.9,
+        "staff": 4.2,
+        "guest": 4.5
+      },
+      "climate_rating": "E",
+      "notes": ""
+    },
+    {
+      "id": 2898359,
+      "date": "2026-09-29",
+      "name": "Salatteller  EH To-Go Hähnchenbrust",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Snacks Kalt Cafeteria",
+      "diet": [],
+      "diet_category": "unknown",
+      "components": [
+        {
+          "de": "Salat Bowl Hähnchenbrust",
+          "codes": [
+            "1"
+          ]
+        }
+      ],
+      "allergens": [],
+      "additives": [
+        "1"
+      ],
+      "price": {
+        "student": 3.9,
+        "staff": 4.2,
+        "guest": 4.5
+      },
+      "climate_rating": "B",
+      "notes": ""
+    },
+    {
+      "id": 2898179,
+      "date": "2026-09-29",
+      "name": "Vegane Bratwurst",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "organic",
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Jackfruit Bratwurst",
+          "codes": []
+        }
+      ],
+      "allergens": [],
+      "additives": [],
+      "price": {
+        "student": 2.9,
+        "staff": 3.9,
+        "guest": 4.4
+      },
+      "climate_rating": "E",
+      "notes": ""
+    },
+    {
+      "id": 2898089,
+      "date": "2026-09-29",
+      "name": "Schweineschnitzel",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "pork"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Schweineschnitzel",
+          "codes": [
+            "20a",
+            "22"
+          ]
+        }
+      ],
+      "allergens": [
+        "20a",
+        "22"
+      ],
+      "additives": [],
+      "price": {
+        "student": 5.0,
+        "staff": 6.0,
+        "guest": 6.5
+      },
+      "climate_rating": "E",
+      "notes": ""
+    },
+    {
+      "id": 2898329,
+      "date": "2026-09-29",
+      "name": "Green Heroes Knusperschnitzel (Vegan)",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Green Heroes Knusper Schnitzel",
+          "codes": [
+            "20a"
+          ]
+        }
+      ],
+      "allergens": [
+        "20a"
+      ],
+      "additives": [],
+      "price": {
+        "student": 3.5,
+        "staff": 4.5,
+        "guest": 5.0
+      },
+      "climate_rating": "E",
+      "notes": ""
+    },
+    {
+      "id": 2897459,
+      "date": "2026-09-29",
+      "name": "Hamburger Vegan Galerie",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Burger Cafeteria",
+      "diet": [
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Hamburger Kürbis-Chiasamen",
+          "codes": [
+            "20a",
+            "20b",
+            "20c",
+            "30"
+          ]
+        },
+        {
+          "de": "Gouda",
+          "codes": []
+        },
+        {
+          "de": "Tomatenscheiben",
+          "codes": []
+        },
+        {
+          "de": "Röstzwiebeln",
+          "codes": []
+        },
+        {
+          "de": "Eisbergsalat",
+          "codes": [
+            "1",
+            "2",
+            "4",
+            "7",
+            "20a",
+            "26"
+          ]
+        }
+      ],
+      "allergens": [
+        "20a",
+        "20b",
+        "20c",
+        "26",
+        "30"
+      ],
+      "additives": [
+        "1",
+        "2",
+        "4",
+        "7"
+      ],
+      "price": {
+        "student": 5.5,
+        "staff": 6.5,
+        "guest": 7.0
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2897519,
+      "date": "2026-09-29",
+      "name": "Crispy Chicken-Hamburger",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Burger Cafeteria",
+      "diet": [
+        "poultry"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Crispy Chicken Burger",
+          "codes": [
+            "20a",
+            "20b",
+            "20c",
+            "26",
+            "28",
+            "30"
+          ]
+        },
+        {
+          "de": "Gouda",
+          "codes": []
+        },
+        {
+          "de": "Tomatenscheiben",
+          "codes": []
+        },
+        {
+          "de": "Röstzwiebeln",
+          "codes": []
+        },
+        {
+          "de": "Eisbergsalat",
+          "codes": [
+            "1",
+            "2",
+            "4",
+            "7",
+            "20a",
+            "26"
+          ]
+        }
+      ],
+      "allergens": [
+        "20a",
+        "20b",
+        "20c",
+        "26",
+        "28",
+        "30"
+      ],
+      "additives": [
+        "1",
+        "2",
+        "4",
+        "7"
+      ],
+      "price": {
+        "student": 5.5,
+        "staff": 6.5,
+        "guest": 7.0
+      },
+      "climate_rating": "E",
+      "notes": ""
+    },
+    {
+      "id": 2897429,
+      "date": "2026-09-29",
+      "name": "Hamburger Rind Galerie",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Burger Cafeteria",
+      "diet": [
+        "beef"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Hamburger Rind",
+          "codes": [
+            "20a",
+            "20b",
+            "20c",
+            "29",
+            "30"
+          ]
+        },
+        {
+          "de": "Gouda",
+          "codes": []
+        },
+        {
+          "de": "Tomatenscheiben",
+          "codes": []
+        },
+        {
+          "de": "Röstzwiebeln",
+          "codes": []
+        },
+        {
+          "de": "Eisbergsalat",
+          "codes": [
+            "1",
+            "2",
+            "4",
+            "7",
+            "20a",
+            "26"
+          ]
+        }
+      ],
+      "allergens": [
+        "20a",
+        "20b",
+        "20c",
+        "26",
+        "29",
+        "30"
+      ],
+      "additives": [
+        "1",
+        "2",
+        "4",
+        "7"
+      ],
+      "price": {
+        "student": 5.5,
+        "staff": 6.5,
+        "guest": 7.0
+      },
+      "climate_rating": "B",
+      "notes": ""
+    },
+    {
+      "id": 2897969,
+      "date": "2026-09-29",
+      "name": "Bratwurst",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "pork",
+        "species-appropriate"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Bratwurst",
+          "codes": []
+        }
+      ],
+      "allergens": [],
+      "additives": [],
+      "price": {
+        "student": 2.9,
+        "staff": 3.9,
+        "guest": 4.4
+      },
+      "climate_rating": "B",
+      "notes": ""
+    },
+    {
+      "id": 2898209,
+      "date": "2026-09-29",
+      "name": "Vegane Bratwurst Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "organic",
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Jackfruit Bratwurst",
+          "codes": []
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [],
+      "additives": [],
+      "price": {
+        "student": 3.9,
+        "staff": 6.0,
+        "guest": 7.1
+      },
+      "climate_rating": "E",
+      "notes": ""
+    },
+    {
+      "id": 2897610,
+      "date": "2026-09-30",
+      "name": "Crispy Chicken-Hamburger Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Burger Cafeteria",
+      "diet": [
+        "poultry"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Crispy Chicken Burger",
+          "codes": [
+            "20a",
+            "20b",
+            "20c",
+            "26",
+            "28",
+            "30"
+          ]
+        },
+        {
+          "de": "Gouda",
+          "codes": []
+        },
+        {
+          "de": "Tomatenscheiben",
+          "codes": []
+        },
+        {
+          "de": "Röstzwiebeln",
+          "codes": []
+        },
+        {
+          "de": "Eisbergsalat",
+          "codes": [
+            "1",
+            "2",
+            "4",
+            "7",
+            "20a",
+            "26"
+          ]
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [
+        "20a",
+        "20b",
+        "20c",
+        "26",
+        "28",
+        "30"
+      ],
+      "additives": [
+        "1",
+        "2",
+        "4",
+        "7"
+      ],
+      "price": {
+        "student": 6.5,
+        "staff": 8.6,
+        "guest": 9.7
+      },
+      "climate_rating": "E",
+      "notes": ""
+    },
+    {
+      "id": 2898060,
+      "date": "2026-09-30",
+      "name": "Pommes frites frittiert EH",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Pommes Frites",
+          "codes": []
+        }
+      ],
+      "allergens": [],
+      "additives": [],
+      "price": {
+        "student": 1.9,
+        "staff": 2.4,
+        "guest": 2.9
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2897550,
+      "date": "2026-09-30",
+      "name": "Hamburger Rind Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Burger Cafeteria",
+      "diet": [
+        "beef"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Hamburger Rind",
+          "codes": [
+            "20a",
+            "20b",
+            "20c",
+            "29",
+            "30"
+          ]
+        },
+        {
+          "de": "Gouda",
+          "codes": []
+        },
+        {
+          "de": "Tomatenscheiben",
+          "codes": []
+        },
+        {
+          "de": "Röstzwiebeln",
+          "codes": []
+        },
+        {
+          "de": "Eisbergsalat",
+          "codes": [
+            "1",
+            "2",
+            "4",
+            "7",
+            "20a",
+            "26"
+          ]
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [
+        "20a",
+        "20b",
+        "20c",
+        "26",
+        "29",
+        "30"
+      ],
+      "additives": [
+        "1",
+        "2",
+        "4",
+        "7"
+      ],
+      "price": {
+        "student": 6.5,
+        "staff": 8.6,
+        "guest": 9.7
+      },
+      "climate_rating": "B",
+      "notes": ""
+    },
+    {
+      "id": 2898240,
+      "date": "2026-09-30",
+      "name": "Vegane Currywurst Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "organic",
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Jackfruit Bratwurst",
+          "codes": []
+        },
+        {
+          "de": "Currysauce",
+          "codes": [
+            "29"
+          ]
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [
+        "29"
+      ],
+      "additives": [],
+      "price": {
+        "student": 4.3,
+        "staff": 6.4,
+        "guest": 7.5
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2897490,
+      "date": "2026-09-30",
+      "name": "Hamburger Vegan Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Burger Cafeteria",
+      "diet": [
+        "organic",
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Hamburger Kürbis-Chiasamen",
+          "codes": [
+            "20a",
+            "20b",
+            "20c",
+            "30"
+          ]
+        },
+        {
+          "de": "Gouda",
+          "codes": []
+        },
+        {
+          "de": "Tomatenscheiben",
+          "codes": []
+        },
+        {
+          "de": "Röstzwiebeln",
+          "codes": []
+        },
+        {
+          "de": "Eisbergsalat",
+          "codes": [
+            "1",
+            "2",
+            "4",
+            "7",
+            "20a",
+            "26"
+          ]
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [
+        "20a",
+        "20b",
+        "20c",
+        "26",
+        "30"
+      ],
+      "additives": [
+        "1",
+        "2",
+        "4",
+        "7"
+      ],
+      "price": {
+        "student": 6.5,
+        "staff": 8.6,
+        "guest": 9.7
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2897910,
+      "date": "2026-09-30",
+      "name": "Green Heroes Knusperschnitzel Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Green Heroes Knusper Schnitzel",
+          "codes": [
+            "20a"
+          ]
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [
+        "20a"
+      ],
+      "additives": [],
+      "price": {
+        "student": 4.5,
+        "staff": 6.6,
+        "guest": 7.7
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2898300,
+      "date": "2026-09-30",
+      "name": "Currywurst Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "organic",
+        "pork",
+        "species-appropriate"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Bratwurst",
+          "codes": []
+        },
+        {
+          "de": "Currysauce",
+          "codes": [
+            "29"
+          ]
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [
+        "29"
+      ],
+      "additives": [],
+      "price": {
+        "student": 4.3,
+        "staff": 6.4,
+        "guest": 7.5
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2897940,
+      "date": "2026-09-30",
+      "name": "Schweineschnitzel  Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "pork"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Schweineschnitzel",
+          "codes": [
+            "20a",
+            "22"
+          ]
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [
+        "20a",
+        "22"
+      ],
+      "additives": [],
+      "price": {
+        "student": 6.0,
+        "staff": 8.1,
+        "guest": 9.2
+      },
+      "climate_rating": "B",
+      "notes": ""
+    },
+    {
+      "id": 2898000,
+      "date": "2026-09-30",
+      "name": "Bratwurst Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "organic",
+        "pork",
+        "species-appropriate"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Bratwurst",
+          "codes": []
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [],
+      "additives": [],
+      "price": {
+        "student": 3.9,
+        "staff": 6.0,
+        "guest": 7.1
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2898180,
+      "date": "2026-09-30",
+      "name": "Vegane Bratwurst",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "organic",
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Jackfruit Bratwurst",
+          "codes": []
+        }
+      ],
+      "allergens": [],
+      "additives": [],
+      "price": {
+        "student": 2.9,
+        "staff": 3.9,
+        "guest": 4.4
+      },
+      "climate_rating": "E",
+      "notes": ""
+    },
+    {
+      "id": 2898090,
+      "date": "2026-09-30",
+      "name": "Schweineschnitzel",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "pork"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Schweineschnitzel",
+          "codes": [
+            "20a",
+            "22"
+          ]
+        }
+      ],
+      "allergens": [
+        "20a",
+        "22"
+      ],
+      "additives": [],
+      "price": {
+        "student": 5.0,
+        "staff": 6.0,
+        "guest": 6.5
+      },
+      "climate_rating": "E",
+      "notes": ""
+    },
+    {
+      "id": 2898330,
+      "date": "2026-09-30",
+      "name": "Green Heroes Knusperschnitzel (Vegan)",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Green Heroes Knusper Schnitzel",
+          "codes": [
+            "20a"
+          ]
+        }
+      ],
+      "allergens": [
+        "20a"
+      ],
+      "additives": [],
+      "price": {
+        "student": 3.5,
+        "staff": 4.5,
+        "guest": 5.0
+      },
+      "climate_rating": "E",
+      "notes": ""
+    },
+    {
+      "id": 2897460,
+      "date": "2026-09-30",
+      "name": "Hamburger Vegan Galerie",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Burger Cafeteria",
+      "diet": [
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Hamburger Kürbis-Chiasamen",
+          "codes": [
+            "20a",
+            "20b",
+            "20c",
+            "30"
+          ]
+        },
+        {
+          "de": "Gouda",
+          "codes": []
+        },
+        {
+          "de": "Tomatenscheiben",
+          "codes": []
+        },
+        {
+          "de": "Röstzwiebeln",
+          "codes": []
+        },
+        {
+          "de": "Eisbergsalat",
+          "codes": [
+            "1",
+            "2",
+            "4",
+            "7",
+            "20a",
+            "26"
+          ]
+        }
+      ],
+      "allergens": [
+        "20a",
+        "20b",
+        "20c",
+        "26",
+        "30"
+      ],
+      "additives": [
+        "1",
+        "2",
+        "4",
+        "7"
+      ],
+      "price": {
+        "student": 5.5,
+        "staff": 6.5,
+        "guest": 7.0
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2898210,
+      "date": "2026-09-30",
+      "name": "Vegane Bratwurst Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "organic",
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Jackfruit Bratwurst",
+          "codes": []
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [],
+      "additives": [],
+      "price": {
+        "student": 3.9,
+        "staff": 6.0,
+        "guest": 7.1
+      },
+      "climate_rating": "E",
+      "notes": ""
+    },
+    {
+      "id": 2897970,
+      "date": "2026-09-30",
+      "name": "Bratwurst",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "pork",
+        "species-appropriate"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Bratwurst",
+          "codes": []
+        }
+      ],
+      "allergens": [],
+      "additives": [],
+      "price": {
+        "student": 2.9,
+        "staff": 3.9,
+        "guest": 4.4
+      },
+      "climate_rating": "B",
+      "notes": ""
+    },
+    {
+      "id": 2897430,
+      "date": "2026-09-30",
+      "name": "Hamburger Rind Galerie",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Burger Cafeteria",
+      "diet": [
+        "beef"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Hamburger Rind",
+          "codes": [
+            "20a",
+            "20b",
+            "20c",
+            "29",
+            "30"
+          ]
+        },
+        {
+          "de": "Gouda",
+          "codes": []
+        },
+        {
+          "de": "Tomatenscheiben",
+          "codes": []
+        },
+        {
+          "de": "Röstzwiebeln",
+          "codes": []
+        },
+        {
+          "de": "Eisbergsalat",
+          "codes": [
+            "1",
+            "2",
+            "4",
+            "7",
+            "20a",
+            "26"
+          ]
+        }
+      ],
+      "allergens": [
+        "20a",
+        "20b",
+        "20c",
+        "26",
+        "29",
+        "30"
+      ],
+      "additives": [
+        "1",
+        "2",
+        "4",
+        "7"
+      ],
+      "price": {
+        "student": 5.5,
+        "staff": 6.5,
+        "guest": 7.0
+      },
+      "climate_rating": "B",
+      "notes": ""
+    },
+    {
+      "id": 2897520,
+      "date": "2026-09-30",
+      "name": "Crispy Chicken-Hamburger",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Burger Cafeteria",
+      "diet": [
+        "poultry"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Crispy Chicken Burger",
+          "codes": [
+            "20a",
+            "20b",
+            "20c",
+            "26",
+            "28",
+            "30"
+          ]
+        },
+        {
+          "de": "Gouda",
+          "codes": []
+        },
+        {
+          "de": "Tomatenscheiben",
+          "codes": []
+        },
+        {
+          "de": "Röstzwiebeln",
+          "codes": []
+        },
+        {
+          "de": "Eisbergsalat",
+          "codes": [
+            "1",
+            "2",
+            "4",
+            "7",
+            "20a",
+            "26"
+          ]
+        }
+      ],
+      "allergens": [
+        "20a",
+        "20b",
+        "20c",
+        "26",
+        "28",
+        "30"
+      ],
+      "additives": [
+        "1",
+        "2",
+        "4",
+        "7"
+      ],
+      "price": {
+        "student": 5.5,
+        "staff": 6.5,
+        "guest": 7.0
+      },
+      "climate_rating": "E",
+      "notes": ""
+    },
+    {
+      "id": 2898450,
+      "date": "2026-09-30",
+      "name": "Salatteller  EH To-Go Falafelbällchen Ve",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Snacks Kalt Cafeteria",
+      "diet": [],
+      "diet_category": "unknown",
+      "components": [
+        {
+          "de": "Salat Bowl Falafel",
+          "codes": [
+            "1",
+            "20a"
+          ]
+        }
+      ],
+      "allergens": [
+        "20a"
+      ],
+      "additives": [
+        "1"
+      ],
+      "price": {
+        "student": 3.9,
+        "staff": 4.2,
+        "guest": 4.5
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2898420,
+      "date": "2026-09-30",
+      "name": "Salatteller  EH To-Go Mozzarella ",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Snacks Kalt Cafeteria",
+      "diet": [],
+      "diet_category": "unknown",
+      "components": [
+        {
+          "de": "Salat Bowl Mozzarella",
+          "codes": [
+            "1",
+            "26"
+          ]
+        }
+      ],
+      "allergens": [
+        "22",
+        "26"
+      ],
+      "additives": [
+        "1"
+      ],
+      "price": {
+        "student": 3.9,
+        "staff": 4.2,
+        "guest": 4.5
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2898390,
+      "date": "2026-09-30",
+      "name": "Salatteller  EH To-Go Hirtenkäse",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Snacks Kalt Cafeteria",
+      "diet": [],
+      "diet_category": "unknown",
+      "components": [
+        {
+          "de": "Salat Bowl Hirtenkäse",
+          "codes": [
+            "1",
+            "26"
+          ]
+        }
+      ],
+      "allergens": [
+        "26"
+      ],
+      "additives": [
+        "1"
+      ],
+      "price": {
+        "student": 3.9,
+        "staff": 4.2,
+        "guest": 4.5
+      },
+      "climate_rating": "B",
+      "notes": ""
+    },
+    {
+      "id": 2898360,
+      "date": "2026-09-30",
+      "name": "Salatteller  EH To-Go Hähnchenbrust",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Snacks Kalt Cafeteria",
+      "diet": [],
+      "diet_category": "unknown",
+      "components": [
+        {
+          "de": "Salat Bowl Hähnchenbrust",
+          "codes": [
+            "1"
+          ]
+        }
+      ],
+      "allergens": [
+        "22",
+        "29"
+      ],
+      "additives": [
+        "1"
+      ],
+      "price": {
+        "student": 3.9,
+        "staff": 4.2,
+        "guest": 4.5
+      },
+      "climate_rating": "B",
+      "notes": ""
+    },
+    {
+      "id": 2902010,
+      "date": "2026-10-01",
+      "name": "Pommes frites frittiert EH",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Pommes Frites",
+          "codes": []
+        }
+      ],
+      "allergens": [],
+      "additives": [],
+      "price": {
+        "student": 1.9,
+        "staff": 2.4,
+        "guest": 2.9
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2901952,
+      "date": "2026-10-01",
+      "name": "Bratwurst Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "organic",
+        "pork",
+        "species-appropriate"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Bratwurst",
+          "codes": []
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [],
+      "additives": [],
+      "price": {
+        "student": 3.9,
+        "staff": 6.0,
+        "guest": 7.1
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2901227,
+      "date": "2026-10-01",
+      "name": "Hamburger Vegan Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Burger Cafeteria",
+      "diet": [
+        "organic",
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Hamburger Kürbis-Chiasamen",
+          "codes": [
+            "20a",
+            "20b",
+            "20c",
+            "30"
+          ]
+        },
+        {
+          "de": "Gouda",
+          "codes": []
+        },
+        {
+          "de": "Tomatenscheiben",
+          "codes": []
+        },
+        {
+          "de": "Röstzwiebeln",
+          "codes": []
+        },
+        {
+          "de": "Eisbergsalat",
+          "codes": [
+            "1",
+            "2",
+            "4",
+            "7",
+            "20a",
+            "26"
+          ]
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [
+        "20a",
+        "20b",
+        "20c",
+        "26",
+        "30"
+      ],
+      "additives": [
+        "1",
+        "2",
+        "4",
+        "7"
+      ],
+      "price": {
+        "student": 6.5,
+        "staff": 8.6,
+        "guest": 9.7
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2901314,
+      "date": "2026-10-01",
+      "name": "Hamburger Rind Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Burger Cafeteria",
+      "diet": [
+        "beef"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Hamburger Rind",
+          "codes": [
+            "20a",
+            "20b",
+            "20c",
+            "29",
+            "30"
+          ]
+        },
+        {
+          "de": "Gouda",
+          "codes": []
+        },
+        {
+          "de": "Tomatenscheiben",
+          "codes": []
+        },
+        {
+          "de": "Röstzwiebeln",
+          "codes": []
+        },
+        {
+          "de": "Eisbergsalat",
+          "codes": [
+            "1",
+            "2",
+            "4",
+            "7",
+            "20a",
+            "26"
+          ]
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [
+        "20a",
+        "20b",
+        "20c",
+        "26",
+        "29",
+        "30"
+      ],
+      "additives": [
+        "1",
+        "2",
+        "4",
+        "7"
+      ],
+      "price": {
+        "student": 6.5,
+        "staff": 8.6,
+        "guest": 9.7
+      },
+      "climate_rating": "B",
+      "notes": ""
+    },
+    {
+      "id": 2901169,
+      "date": "2026-10-01",
+      "name": "Crispy Chicken-Hamburger Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Burger Cafeteria",
+      "diet": [
+        "poultry"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Crispy Chicken Burger",
+          "codes": [
+            "20a",
+            "20b",
+            "20c",
+            "26",
+            "28",
+            "30"
+          ]
+        },
+        {
+          "de": "Gouda",
+          "codes": []
+        },
+        {
+          "de": "Tomatenscheiben",
+          "codes": []
+        },
+        {
+          "de": "Röstzwiebeln",
+          "codes": []
+        },
+        {
+          "de": "Eisbergsalat",
+          "codes": [
+            "1",
+            "2",
+            "4",
+            "7",
+            "20a",
+            "26"
+          ]
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [
+        "20a",
+        "20b",
+        "20c",
+        "26",
+        "28",
+        "30"
+      ],
+      "additives": [
+        "1",
+        "2",
+        "4",
+        "7"
+      ],
+      "price": {
+        "student": 6.5,
+        "staff": 8.6,
+        "guest": 9.7
+      },
+      "climate_rating": "E",
+      "notes": ""
+    },
+    {
+      "id": 2901865,
+      "date": "2026-10-01",
+      "name": "Green Heroes Knusperschnitzel Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Green Heroes Knusper Schnitzel",
+          "codes": [
+            "20a"
+          ]
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [
+        "20a"
+      ],
+      "additives": [],
+      "price": {
+        "student": 4.5,
+        "staff": 6.6,
+        "guest": 7.7
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2901807,
+      "date": "2026-10-01",
+      "name": "Currywurst Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "organic",
+        "pork",
+        "species-appropriate"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Bratwurst",
+          "codes": []
+        },
+        {
+          "de": "Currysauce",
+          "codes": [
+            "29"
+          ]
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [
+        "29"
+      ],
+      "additives": [],
+      "price": {
+        "student": 4.3,
+        "staff": 6.4,
+        "guest": 7.5
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2901749,
+      "date": "2026-10-01",
+      "name": "Vegane Currywurst Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "organic",
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Jackfruit Bratwurst",
+          "codes": []
+        },
+        {
+          "de": "Currysauce",
+          "codes": [
+            "29"
+          ]
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [
+        "29"
+      ],
+      "additives": [],
+      "price": {
+        "student": 4.3,
+        "staff": 6.4,
+        "guest": 7.5
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2901894,
+      "date": "2026-10-01",
+      "name": "Schweineschnitzel  Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "pork"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Schweineschnitzel",
+          "codes": [
+            "20a",
+            "22"
+          ]
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [
+        "20a",
+        "22"
+      ],
+      "additives": [],
+      "price": {
+        "student": 6.0,
+        "staff": 8.1,
+        "guest": 9.2
+      },
+      "climate_rating": "B",
+      "notes": ""
+    },
+    {
+      "id": 2901923,
+      "date": "2026-10-01",
+      "name": "Bratwurst",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "pork",
+        "species-appropriate"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Bratwurst",
+          "codes": []
+        }
+      ],
+      "allergens": [],
+      "additives": [],
+      "price": {
+        "student": 2.9,
+        "staff": 3.9,
+        "guest": 4.4
+      },
+      "climate_rating": "B",
+      "notes": ""
+    },
+    {
+      "id": 2901604,
+      "date": "2026-10-01",
+      "name": "Schweineschnitzel",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "pork"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Schweineschnitzel",
+          "codes": [
+            "20a",
+            "22"
+          ]
+        }
+      ],
+      "allergens": [
+        "20a",
+        "22"
+      ],
+      "additives": [],
+      "price": {
+        "student": 5.0,
+        "staff": 6.0,
+        "guest": 6.5
+      },
+      "climate_rating": "E",
+      "notes": ""
+    },
+    {
+      "id": 2901198,
+      "date": "2026-10-01",
+      "name": "Hamburger Vegan Galerie",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Burger Cafeteria",
+      "diet": [
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Hamburger Kürbis-Chiasamen",
+          "codes": [
+            "20a",
+            "20b",
+            "20c",
+            "30"
+          ]
+        },
+        {
+          "de": "Gouda",
+          "codes": []
+        },
+        {
+          "de": "Tomatenscheiben",
+          "codes": []
+        },
+        {
+          "de": "Röstzwiebeln",
+          "codes": []
+        },
+        {
+          "de": "Eisbergsalat",
+          "codes": [
+            "1",
+            "2",
+            "4",
+            "7",
+            "20a",
+            "26"
+          ]
+        }
+      ],
+      "allergens": [
+        "20a",
+        "20b",
+        "20c",
+        "26",
+        "30"
+      ],
+      "additives": [
+        "1",
+        "2",
+        "4",
+        "7"
+      ],
+      "price": {
+        "student": 5.5,
+        "staff": 6.5,
+        "guest": 7.0
+      },
+      "climate_rating": "A",
+      "notes": ""
+    },
+    {
+      "id": 2901691,
+      "date": "2026-10-01",
+      "name": "Vegane Bratwurst",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "organic",
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Jackfruit Bratwurst",
+          "codes": []
+        }
+      ],
+      "allergens": [],
+      "additives": [],
+      "price": {
+        "student": 2.9,
+        "staff": 3.9,
+        "guest": 4.4
+      },
+      "climate_rating": "E",
+      "notes": ""
+    },
+    {
+      "id": 2901720,
+      "date": "2026-10-01",
+      "name": "Vegane Bratwurst Menü",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "organic",
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Jackfruit Bratwurst",
+          "codes": []
+        },
+        {
+          "de": "Pommes frites",
+          "codes": []
+        }
+      ],
+      "allergens": [],
+      "additives": [],
+      "price": {
+        "student": 3.9,
+        "staff": 6.0,
+        "guest": 7.1
+      },
+      "climate_rating": "E",
+      "notes": ""
+    },
+    {
+      "id": 2901256,
+      "date": "2026-10-01",
+      "name": "Crispy Chicken-Hamburger",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Burger Cafeteria",
+      "diet": [
+        "poultry"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Crispy Chicken Burger",
+          "codes": [
+            "20a",
+            "20b",
+            "20c",
+            "26",
+            "28",
+            "30"
+          ]
+        },
+        {
+          "de": "Gouda",
+          "codes": []
+        },
+        {
+          "de": "Tomatenscheiben",
+          "codes": []
+        },
+        {
+          "de": "Röstzwiebeln",
+          "codes": []
+        },
+        {
+          "de": "Eisbergsalat",
+          "codes": [
+            "1",
+            "2",
+            "4",
+            "7",
+            "20a",
+            "26"
+          ]
+        }
+      ],
+      "allergens": [
+        "20a",
+        "20b",
+        "20c",
+        "26",
+        "28",
+        "30"
+      ],
+      "additives": [
+        "1",
+        "2",
+        "4",
+        "7"
+      ],
+      "price": {
+        "student": 5.5,
+        "staff": 6.5,
+        "guest": 7.0
+      },
+      "climate_rating": "E",
+      "notes": ""
+    },
+    {
+      "id": 2901836,
+      "date": "2026-10-01",
+      "name": "Green Heroes Knusperschnitzel (Vegan)",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "FCooking Mittag Cafeteria",
+      "diet": [
+        "vegan"
+      ],
+      "diet_category": "vegan",
+      "components": [
+        {
+          "de": "Green Heroes Knusper Schnitzel",
+          "codes": [
+            "20a"
+          ]
+        }
+      ],
+      "allergens": [
+        "20a"
+      ],
+      "additives": [],
+      "price": {
+        "student": 3.5,
+        "staff": 4.5,
+        "guest": 5.0
+      },
+      "climate_rating": "E",
+      "notes": ""
+    },
+    {
+      "id": 2901285,
+      "date": "2026-10-01",
+      "name": "Hamburger Rind Galerie",
+      "canteen_id": 451,
+      "canteen": "Galerie",
+      "section": "Burger Cafeteria",
+      "diet": [
+        "beef"
+      ],
+      "diet_category": "meat",
+      "components": [
+        {
+          "de": "Hamburger Rind",
+          "codes": [
+            "20a",
+            "20b",
+            "20c",
+            "29",
+            "30"
+          ]
+        },
+        {
+          "de": "Gouda",
+          "codes": []
+        },
+        {
+          "de": "Tomatenscheiben",
+          "codes": []
+        },
+        {
+          "de": "Röstzwiebeln",
+          "codes": []
+        },
+        {
+          "de": "Eisbergsalat",
+          "codes": [
+            "1",
+            "2",
+            "4",
+            "7",
+            "20a",
+            "26"
+          ]
+        }
+      ],
+      "allergens": [
+        "20a",
+        "20b",
+        "20c",
+        "26",
+        "29",
+        "30"
+      ],
+      "additives": [
+        "1",
+        "2",
+        "4",
+        "7"
+      ],
+      "price": {
+        "student": 5.5,
+        "staff": 6.5,
+        "guest": 7.0
+      },
+      "climate_rating": "B",
+      "notes": ""
+    }
+  ]
+}
