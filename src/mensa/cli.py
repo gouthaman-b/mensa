@@ -261,7 +261,7 @@ def render_plan_table(meals: Sequence[Meal], role: PriceRole) -> Table:
         table.add_row(
             _format_day(meal.date),
             meal.kind.value,
-            meal.id,
+            str(meal.id),
             meal.name,
             meal.canteen_name,
             _format_climate(meal.climate_rating),
