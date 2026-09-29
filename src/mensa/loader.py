@@ -64,6 +64,10 @@ def load_menu(
         raw_meal
         for canteen in selected
         for raw_meal in fetch_meals_raw(canteen.id, use_cache=use_cache)
+        if not all(
+            raw_meal.get(price_field) == 0
+            for price_field in ("VKPREISSTUD", "VKPREISBED", "VKPREISGAST")
+        )
     ]
     return LoadedMenu(canteens=canteens, meals=tuple(parse_meal(raw) for raw in raw_meals))
 

@@ -37,6 +37,7 @@ class DietClass(StrEnum):
     BEEF = "beef"  # R
     FISH = "fish"  # F
     LAMB = "lamb"  # L
+    WILD = "wild"  # W
     ORGANIC = "organic"  # B
     SPECIES_APPROPRIATE = "species-appropriate"  # A
 
@@ -45,7 +46,9 @@ DIET_CLASS_BY_CODE: dict[str, DietClass] = {
     code: DietClass(label.lower().replace(" ", "-")) for code, label in DIET_CLASS_CODES.items()
 }
 
-MEAT_CLASSES = frozenset({DietClass.POULTRY, DietClass.PORK, DietClass.BEEF, DietClass.LAMB})
+MEAT_CLASSES = frozenset(
+    {DietClass.POULTRY, DietClass.PORK, DietClass.BEEF, DietClass.LAMB, DietClass.WILD}
+)
 
 
 class DietCategory(StrEnum):
