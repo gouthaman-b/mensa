@@ -2,13 +2,17 @@ import httpx
 
 from . import cache
 from .constants import *
+from .error import MensaError
 
 
 def _get(url: str) -> httpx.Response:
-    with httpx.Client(timeout=HTTP_TIMEOUT) as http_client:
-        resp = http_client.get(url)
-        resp.raise_for_status()
-        return resp
+    try:
+        with httpx.Client(timeout=HTTP_TIMEOUT) as http_client:
+            resp = http_client.get(url)
+            resp.raise_for_status()
+            return resp
+    except httpx.HTTPError as err:
+        raise MensaError("[client]:Network error", err)
 
 
 def _fetch(

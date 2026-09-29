@@ -1,7 +1,9 @@
 import re
+from collections.abc import Mapping
 from datetime import date, datetime, timezone
+from typing import Any
 
-from .model import Meal, MealItem, MealKind
+from .model import DIET_CLASS_BY_CODE, Canteen, Meal, MealItem, MealKind, NutritionInfo
 
 DE_LINE_FIELDS = [f"AUSGABETEXTZEILE{i}" for i in range(1, 8)]
 
@@ -23,7 +25,7 @@ def classify_meal(section: str | None, dish_name: str | None) -> MealKind:
     breakfast_section = re.compile(r"fr[üu]e?h|breakfast", re.IGNORECASE)
     side_section = re.compile(r"beilage|side\s*dish|\bsides?\b", re.IGNORECASE)
     side_name = re.compile(
-        r"(so(ß|ss)e|sauce|dip|dressing|ketchup|mayonnaise|mayo|remoulade|chutney)\b",
+        r"(so(ß|ss)e|sauce|dip|dressing|ketchup|mayonnaise|mayo|remoulade|topping)\b",
         re.IGNORECASE,
     )
     # words that signal "this is a full dish that merely *has* a sauce"
@@ -96,5 +98,63 @@ def parse_meal(raw: dict) -> Meal:
     )
 
 
+def parse_meal_dict(raw: Mapping[str, Any]) -> Meal:
+    raw_date = raw.get("date")
+    meal_date = date.fromisoformat(raw_date[:10]) if raw_date else None
+
+    raw_items = raw.get("items", raw.get("components", []))
+    items = [
+        MealItem(
+            text_de=item.get("text_de", item.get("de", "")),
+            substances=list(item.get("substances", item.get("codes", []))),
+        )
+        for item in raw_items
+    ]
+
+    raw_diet_classes = raw.get("diet_classes")
+    if raw_diet_classes is None:
+        diet_by_label = {diet.value: code for code, diet in DIET_CLASS_BY_CODE.items()}
+        raw_diet_classes = [
+            diet_by_label[value] for value in raw.get("diet", []) if value in diet_by_label
+        ]
+
+    raw_substances = raw.get("substances")
+    if raw_substances is None:
+        raw_substances = [*raw.get("allergens", []), *raw.get("additives", [])]
+
+    raw_price = raw.get("price") or {}
+    raw_nutrition = raw.get("nutrition")
+    nutrition = NutritionInfo(**raw_nutrition) if raw_nutrition else None
+    name = raw.get("name", "")
+    section = raw.get("section", "")
+    kind = raw.get("kind") or classify_meal(section, name)
+
+    return Meal(
+        id=int(raw["id"]),
+        date=meal_date,
+        canteen_id=raw.get("canteen_id"),
+        canteen_name=raw.get("canteen_name", raw.get("canteen", "")),
+        name=name,
+        section=section,
+        kind=MealKind(kind),
+        diet_classes=list(raw_diet_classes),
+        items=items,
+        substances=list(raw_substances),
+        price_student=raw.get("price_student", raw_price.get("student")),
+        price_staff=raw.get("price_staff", raw_price.get("staff")),
+        price_guest=raw.get("price_guest", raw_price.get("guest")),
+        climate_rating=raw.get("climate_rating"),
+        notes=raw.get("notes"),
+        nutrition=nutrition,
+    )
+
+
 def parse_meals(raw_list: list[dict]) -> list[Meal]:
     return [parse_meal(r) for r in raw_list]
+
+
+def parse_canteen(raw: Mapping[str, Any]) -> Canteen:
+    return Canteen(
+        id=int(raw.get("id", raw.get("VERBRAUCHSORTNR"))),
+        name=str(raw.get("name", raw.get("VERBRAUCHSORTNAME", ""))),
+    )
