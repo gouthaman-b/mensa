@@ -110,6 +110,9 @@ class Canteen:
     id: int
     name: str
 
+    def to_dict(self) -> dict[str, Any]:
+        return {"id": self.id, "name": self.name}
+
 
 @dataclass
 class Meal:
